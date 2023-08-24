@@ -1,0 +1,19 @@
+<paths>
+    <root-path
+        name="root-path"
+        path="" />
+    <external-path
+        name="files_root"
+        path="." />
+    <external-path
+        name="external_storage_root"
+        path="." />
+    <cache-path
+        name="cache_files"
+        path="." />
+    <external-path path="." name="external_storage_root" /> <!-- 对应Environment.getExternalStorageDirectory() -->
+    <cache-path name="cache_files" path="."/> <!-- 对应应用程序内部存储区域的cache子目录中的文件Context.getCacheDir()  -->
+    <external-files-path name="external_files" path="."/> <!-- 对应应用程序外部存储区根目录中的文件Context.getExternalFilesDir(null)  -->
+    <external-cache-path name="external_cache_files" path="."/> <!-- 对应应用程序外部缓存区域根目录中的文件Context.getExternalCacheDir()  -->
+    <files-path name="path_files" path="."/> <!-- 对应应用程序内部存储区域的子目录中的文件Context.getFilesDir() -->
+</paths>

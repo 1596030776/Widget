@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/document_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/document_background">
+
+    <ImageView
+        android:id="@+id/document_image"
+        android:src="@drawable/doc"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/document_name"
+            android:layout_width="80dp"
+            android:layout_height="18dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="感觉我"
+            android:textColor="@color/black"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/document_time"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:textColor="#636363"
+            android:textSize="8dp"
+            android:text="7月28日"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
